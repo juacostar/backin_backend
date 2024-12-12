@@ -1,2 +1,16 @@
-package com.credibanco.backin.dto;public class MessageResponse {
+package com.credibanco.backin.dto;
+
+import lombok.Data;
+
+public class MessageResponse {
+
+    String message;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }
